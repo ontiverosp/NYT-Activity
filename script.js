@@ -3,14 +3,11 @@ var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + s
 
 
 
-var newDiv = $("<button>");
-newDiv.text("A pleasure to meet you!");
-$("body").append(newDiv);
 
 
 
-$("button").on("click", function () {
-
+$(".btn-primary").on("click", function (event) {
+    event.preventDefault();
     $.ajax({
         url: queryURL,
         method: "GET"
