@@ -18,6 +18,8 @@ $(".btn-primary").on("click", function (event) {
             //set the info into variable
             var title = result[i].headline.main;
             var date = result[i].pub_date;
+            date= date.slice(0, 10);
+
             var summary = result[i].abstract;
             var link = result[i].web_url;
             //create the article box and its components
