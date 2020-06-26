@@ -22,14 +22,18 @@
     </div>
 
     <div class="container">
-        <h3>Search parameters</h3>
+
+        <section class="heading">
+            <h3>Search parameters</h3>
+        </section>
+
         <form>
-            <div class="form-group">
+            <section class="form-group">
                 <label for="labelSearch">Search terms</label>
                 <input type="email" class="form-control" id="InputSearch" aria-describedby="emailHelp">
-            </div>
+            </section>
 
-            <div class="form-group">
+            <section class="form-group">
                 <label for="labelRecords"># of Records</label>
                 <select class="form-control" id="InputRecords">
                     <option>1</option>
@@ -38,18 +42,21 @@
                     <option>4</option>
                     <option>5</option>
                 </select>
-            </div>
+            </section>
 
-            <div class="form-group">
+            <section class="form-group">
                 <label for="labelStartDate">Start Date (optional)</label>
                 <input type="email" class="form-control" id="InputStartDate" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
-            </div>
-            <div class="form-group">
+            </section>
+
+            <section class="form-group">
                 <label for="labelEndDate">End Date (optional)</label>
                 <input type="password" class="form-control" id="InputEndDate"">
-            </div>
+            </section>
+
+            <button type=" submit" class="btn btn-primary">Submit</button>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
         </form>

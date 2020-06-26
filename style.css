@@ -1,0 +1,25 @@
+
+.jumbotron {
+    background-color: rgb(83, 103, 160);
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-style: hidden;
+    background-color: lightgray;
+}
+
+.hero {
+    font: 1.5rem;
+}
+
+h3 {
+    
+}
+
